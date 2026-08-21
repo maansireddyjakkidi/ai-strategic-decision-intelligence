@@ -1,0 +1,4 @@
+model,baseline_f1,baseline_f1_std,baseline_roc_auc,baseline_roc_auc_std,f1_at_20pct,f1_std_at_20pct,roc_auc_at_20pct,roc_auc_std_at_20pct,f1_change_percent,roc_auc_change_percent,f1_spearman_rho,f1_p_value,roc_auc_spearman_rho,roc_auc_p_value
+Logistic Regression,0.3785,0.0032,0.7708,0.0066,0.3608,0.0034,0.7705,0.0074,-4.6791,-0.0389,-0.9074,0.0,0.0388,0.8711
+Random Forest,0.4731,0.0118,0.7969,0.0056,0.4672,0.0103,0.7889,0.006,-1.2291,-1.0039,-0.2211,0.3488,-0.5196,0.0189
+XGBoost,0.3262,0.0113,0.8039,0.0049,0.3448,0.0127,0.7991,0.0055,5.6907,-0.5971,0.5119,0.021,-0.3568,0.1226
